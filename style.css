@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --bg-color: #2D25A0;
+    --second-bg-color: rgb(232, 232, 232);
+    --button-color: #E02C6D;
+    --text-color: white;
+}
+.Home{
+    background: var(--bg-color);
+    color: var(--text-color);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.nav ul{
+    display: flex;
+    margin-left: 50px;
+}
+.nav ul li{
+    list-style: none;
+    color: var(--text-color);
+    display: flex;
+}
+.nav ul li a{
+    color: var(--text-color);
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.log-in{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    width: 123px;
+    height: 44px;
+    background-color: var(--button-color);
+    margin-right: 100px;
+}
+.icon img{
+    height: 24px;
+}
+.login-text{
+    margin-top: -5px;
+    font-size: 18px;
+}
+.cover{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.text-part{
+    margin-top: 50px;
+    margin-left: 90px;
+    font-size: 60px;
+    font-weight: 700;
+}
+.banner img{
+    width: 556px;
+    height: 434px;
+    margin-right: 50px;
+}
+.btn2{
+    height: 44px;
+    width: 168px;
+    background: var(--button-color);
+    color: var(--text-color);
+    font-size: 15px;
+}
+.btn2 i{
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+/* player part */
+.clubs{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(330px,1fr));
+    background: var(--second-bg-color);
+    color: var(--text-color);
+    justify-content: center;
+    align-content: center;
+}
+.img img{
+    margin-top: 15px;
+    height: 256px;
+    width: 300px;
+}
+.players{
+    margin-top:40px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    height: 474px;
+    width: 330px;
+    box-sizing: border-box;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+.player{
+    height: 460px;
+    width: 316px;
+    margin: auto;
+}
+.detail{
+    text-align: left;
+    margin-left: 10px;
+}
+.detail{
+    font-size: 28px;
+    margin-top: 5px;
+}
+.detail h1{
+    font-size: 30px;
+}
+.detail p{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+/* watch now section */
+.watch{
+    margin-top: 100px;
+}
+.watch-now{
+    display: flex;
+    flex-direction: row;
+}
+.watch-text{
+    margin-left: 100px;
+    width: 50%;
+}
+.heading{
+    width: 80%;
+}
+.watch-now h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+.watch-now p{
+    line-height: 30px;
+    justify-content: left;
+    width: 70%;
+    font-size: 15px;
+    font-weight: 200px;
+    margin-bottom: 20px;
+}
+.img2 img{
+    height: 400px;
+}
+.img2{
+    margin-right: 100px;
+}
+
+/* contact section */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    margin-top: 100px;
+    text-align: center;
+}
+.logo img{
+    width: 400px;
+}
+.social-icon{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.social-icon ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.social-icon ul li img{
+    width: 50px;
+    padding: 5px;
+}
+.copy-right{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+
